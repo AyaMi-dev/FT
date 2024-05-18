@@ -44,15 +44,15 @@ public class MusicReload extends JavaPlugin implements CommandExecutor, TabCompl
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (args.length > 0 && args[0].equalsIgnoreCase("reload")) {
             try {
-                // 음악 재생 중지 로직 추가 필요
+             
 
-                // config.yml 리로드
+        
                 reloadConfig();
 
-                // 플레이리스트 리로드
+          
                 loadPlaylist();
 
-                // 음악 재생 재개 로직 추가 필요
+            
 
                 sender.sendMessage(ChatColor.GREEN + "리로드에 성공했습니다");
             } catch (Exception e) {
