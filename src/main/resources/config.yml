@@ -1,0 +1,15 @@
+version: r1.0
+# 이것을 건드리지마세요!
+#오류가 발생할수 있습니다!
+
+Playlist:
+  lobby: SONG NAME
+  lobby2: SONG NAME
+  victory: SONG NAME
+  defeat: SONG NAME
+  1vs1: SONG NAME
+
+
+#예시
+List:
+  ADOFAI: Plum-R
